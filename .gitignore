@@ -1,4 +1,9 @@
-# Klipper backup configs
+
+# Generated / runtime artifacts
+artifacts/
+*.log
+
+# Backup files
 *.bkp
 *.bak
 *.backup
@@ -6,6 +11,15 @@
 *.orig
 *.save
 printer-*.cfg
+KAMP
+timelapse
+mainsail
+
+# Klipper saved state
+variables.cfg
 saved_variables.cfg
-adxl_results/belts/*.csv
-adxl_results/vibrations/*.tar.gz
+
+# Python / OS junk
+__pycache__/
+.DS_Store
+Thumbs.db
