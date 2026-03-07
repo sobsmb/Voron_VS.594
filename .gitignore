@@ -1,9 +1,11 @@
 # Klipper backup configs
-*.cfg.bak
-*.cfg.backup
-*.cfg.old
+*.bkp
+*.bak
+*.backup
+*.old
+*.orig
+*.save
 printer-*.cfg
-printer-*.cfg.bak
 saved_variables.cfg
 adxl_results/belts/*.csv
 adxl_results/vibrations/*.tar.gz
