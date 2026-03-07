@@ -1,25 +1,49 @@
-
-# Generated / runtime artifacts
+# -----------------------------
+# Runtime / generated artifacts
+# -----------------------------
 artifacts/
 *.log
+moonraker-sql.db
+*.db
+*.sqlite
+*.sqlite3
 
-# Backup files
+# -----------------------------
+# Klipper firmware builds
+# -----------------------------
+*.bin
+*.uf2
+out/
+build/
+
+# -----------------------------
+# Backup / auto-save files
+# -----------------------------
 *.bkp
 *.bak
 *.backup
 *.old
 *.orig
 *.save
+*.swp
+*.tmp
 printer-*.cfg
-KAMP
-timelapse
-mainsail
 
+# -----------------------------
 # Klipper saved state
+# -----------------------------
 variables.cfg
 saved_variables.cfg
 
-# Python / OS junk
+# -----------------------------
+# OS junk
+# -----------------------------
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# -----------------------------
+# Git merge leftovers
+# -----------------------------
+*.rej
+*.patch
